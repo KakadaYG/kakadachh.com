@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>Booking</title>
+    </head>
+    <body>
+        <h2 align="center"> 
+            Create Booking
+        </h2>
+        <form>
+            <fieldset>
+                <legend>Customer Info:</legend>
+                <table>
+                    <tr>
+                        <td><label>CustomerName:</label>
+                        <td><input name="txtCus_name" 
+                type="text" 
+                placeholder="type here....."></td></td>
+                    </tr>
+                     <tr>
+                        <td><label>Customer Tel:</label></td>
+                        <td><input name="txtCus_Tel" type="text"
+                            placeholder="type here...."></td>
+                    </tr> 
+                    <tr>
+                        <td><label>Customer Gender:</label></td>
+                        <td><input name="txtCus_Gender" 
+                            type="radio" value="female">
+                            Female
+                        <input name="txtCus_Gender" 
+                            type="radio" value="male">
+                            Male
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Customer ID Card:</label></td>
+                        <td><input name="txtCus_ID" type="file">
+                        </td>
+                    </tr>
+                     <tr>
+                        <td><label>Room Number:
+                      </label></td>
+                        <td>
+                            <select name="RoomNum" multiple>
+                            <option value="r101">101</option>
+                            <option value="r102">102</option>
+                            <option value="r103">103</option>
+                            <option value="r105">105</option>
+                            </select>
+                        </td>
+                     </tr>
+                     <tr>
+                       <td><label>Booking Date:</label></td>
+                        <td><input name="BookingDate" type="date">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td><input name="Submit" type="submit"></td>
+                     </tr>
+                </table>
+                
+            </fieldset>
+        </form>
+    </body>
